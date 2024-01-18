@@ -27,4 +27,31 @@ name: str = 'Mario' #Explicitly tell python what variable type the variable is. 
 name = 'Mario'
 number = 10
 
-print(name + str(number))
+print(name + str(number)) #Cannot concatenate str and int, thus int is changed to a str
+
+#Integers
+a = 1
+b = 100
+c = 100_000_000_000_000_000_000 #Underscores are not used in operations, are used just for readability
+d = -1234
+
+#Basic operatos
+    #Aritmetic operators
+res = 1+2 #Sum
+res = 1-2 #Substraction
+res = 1*2 #Multiplication
+res = 1/2 #Division
+res = 1%2 #Module operator gives the remain
+res = 1**2 #Powers
+res = 1//2 #Floor division gives the division as an rounded integer
+    #Asignment operators
+a = 5; a = a+3
+
+#Strings
+text = 'This is a text'
+text = "This is also a text"
+text = """This is a text as well"""
+
+#F-srting 
+var = 'text'
+new_string = f'This is a {var}'
