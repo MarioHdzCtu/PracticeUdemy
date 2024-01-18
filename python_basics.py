@@ -55,3 +55,6 @@ text = """This is a text as well"""
 #F-srting 
 var = 'text'
 new_string = f'This is a {var}'
+
+#Lists
+people = ['Mario','Luigi','Toad']
